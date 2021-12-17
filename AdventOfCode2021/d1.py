@@ -9,8 +9,6 @@ with open("d1.txt") as fp:
             break
         array.append(int(line))
 
-print(array[0:5])
-
 sum = 0
 prev_sum = array[0] + array[1] + array[2]
 curr_sum = 0
